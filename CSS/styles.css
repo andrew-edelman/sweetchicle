@@ -120,7 +120,12 @@ td {
 }
 
 /* About page */
-|@media (min-width: 900px) {
+#about {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/* |@media (min-width: 900px) {
   .about-row {
     padding: 1% 5% 1%;
   }
@@ -130,7 +135,7 @@ td {
   .about-row {
     padding: 1% 2% 1%;
   }
-}
+} */
 
 .bio-image {
   width: 75%;
@@ -141,7 +146,7 @@ td {
   font-weight: 500;
   color: white;
   font-size: 3rem;
-  padding: 2% 2% 2% 5%;
+
 }
 
 .bio-description {
