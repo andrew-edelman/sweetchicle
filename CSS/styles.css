@@ -58,6 +58,11 @@ body {
   margin-top: 40px;
 }
 
+.home-content {
+  margin-left: -15;
+  margin-right: -15;
+}
+
 /* Contact Page */
 #contact {
   padding-left: 4%;
