@@ -64,17 +64,22 @@ body {
 }
 
 /* Contact Page */
+#contact {
+  padding-left: 4%;
+  padding-right: 4%;
+}
 .contact-message {
   font-family: 'Rokkitt', serif;
   font-weight: 500;
   color: white;
   font-size: 3rem;
+  padding: 2% 2% 2% 5%;
 }
-.contact-col {
+/* .contact-col {
   padding-left: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
-}
+} */
 .contact-link {
   color: #bfbfbf;
 }
