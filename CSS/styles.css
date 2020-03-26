@@ -120,8 +120,16 @@ td {
 }
 
 /* About page */
-.about-row {
-  padding: 1% 5% 1%;
+|@media (min-width: 900px) {
+  .about-row {
+    padding: 1% 5% 1%;
+  }
+}
+
+|@media (max-width: 899px) {
+  .about-row {
+    padding: 1% 2% 1%;
+  }
 }
 
 .bio-image {
