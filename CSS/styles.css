@@ -124,7 +124,7 @@ td {
   padding-bottom: 4%;
 }
 
-@media screen (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .member-image {
     padding-bottom: 5%;
   }
