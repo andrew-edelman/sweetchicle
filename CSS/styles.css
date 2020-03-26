@@ -125,14 +125,12 @@ td {
 }
 
 @media only screen and (max-width: 900px) {
-  .about-row .member-image {
+  .member-image {
     padding-bottom: 5%;
+    text-align: center;
     }
-  .about-row {
-    text-align: center;
-  }
-  .bio-heading {
-    text-align: center;
+  .bio-heading, .bio-description {
+    padding-left: 5%;
   }
 }
 
