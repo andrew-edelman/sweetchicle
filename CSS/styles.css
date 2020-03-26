@@ -1,0 +1,140 @@
+body {
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+
+/* Nav Bar */
+.navbar-brand {
+  font-family: 'La Belle Aurore', cursive;
+  font-weight: 600;
+}
+.nav-item {
+  font-family: 'Anton', sans-serif;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.social-icon {
+  color: #bfbfbf;
+  font-size: 1.2rem;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.social-icon:hover {
+  color: white;
+}
+
+
+/* Band name area */
+.title-text{
+  text-align: center;
+}
+
+.band-name {
+  padding-top: 70px;
+  font-family: 'La Belle Aurore', cursive;
+  font-weight: 700;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.musical-experience {
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  color: white;
+  font-size: 2rem;
+}
+
+/* Content Area */
+.content {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.fas {
+  color: white;
+  margin-top: 40px;
+}
+
+.content-description {
+  color: white;
+  padding: 3% 3% 3% 3%
+}
+
+/* Contact Page */
+.contact-message {
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  color: white;
+  font-size: 3rem;
+}
+.contact-col {
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.contact-link {
+  color: #bfbfbf;
+}
+
+.contact-link:hover {
+  color: white;
+}
+
+td {
+  padding: 2%;
+}
+
+/* Music Page */
+#songs {
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.song {
+  padding: 2%;
+
+}
+
+.music-heading {
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  color: white;
+  font-size: 3rem;
+  padding: 2% 2% 2% 5%;
+}
+
+/* Shows Page Section */
+.shows-heading {
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  color: white;
+  font-size: 2rem;
+  padding: 2% 2% 2% 5%;
+}
+
+/* About page */
+.about-row {
+  padding: 1% 5% 1%;
+}
+
+.bio-image {
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+.bio-heading {
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  color: white;
+  font-size: 3rem;
+  padding: 2% 2% 2% 5%;
+}
+
+.bio-description {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+
+}
