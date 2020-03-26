@@ -126,10 +126,14 @@ td {
 }
 
 .about-row {
-  margin-bottom: 4%;
+  padding-bottom: 4%;
 }
 
 .bio-image {
+  width: 90%;
+}
+
+.member-image {
   width: 75%;
 }
 
