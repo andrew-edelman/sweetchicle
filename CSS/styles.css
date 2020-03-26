@@ -131,6 +131,9 @@ td {
   .about-row {
     text-align: center;
   }
+  .bio-heading {
+    text-align: center;
+  }
 }
 
 .bio-image {
