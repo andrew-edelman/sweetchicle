@@ -131,9 +131,9 @@ td {
 
 @media screen (max-width: 900px) {
   .member-image {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
   }
-  .about-row {
+  #about {
     text-align: center;
   }
 }
