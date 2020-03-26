@@ -132,6 +132,10 @@ td {
   }
 }
 
+.bio-image {
+  width: 75%;
+}
+
 .bio-heading {
   font-family: 'Rokkitt', serif;
   font-weight: 500;
