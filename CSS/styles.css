@@ -129,6 +129,15 @@ td {
   padding-bottom: 4%;
 }
 
+@media (max-width: 900px) {
+  .member-image {
+    padding-bottom: 3%;
+  }
+  .about-row {
+    text-align: center;
+  }
+}
+
 .bio-image {
   width: 90%;
 }
