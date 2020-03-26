@@ -73,13 +73,11 @@ body {
   font-weight: 500;
   color: white;
   font-size: 3rem;
-  padding: 2% 2% 2% 2%;
 }
-/* .contact-col {
-  padding-left: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-} */
+.contact-col {
+  padding: 3% 2% 1% 1%;
+
+}
 .contact-link {
   color: #bfbfbf;
 }
