@@ -127,11 +127,11 @@ td {
 @media only screen and (max-width: 900px) {
   .member-image {
     padding-bottom: 5%;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
     }
-  .bio-heading, .bio-description {
-    padding-left: 5%;
-  }
 }
 
 .bio-image {
