@@ -132,6 +132,12 @@ td {
     margin-right: auto;
     width: 75%;
     }
+    .bio-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+    }
 }
 
 .bio-image {
