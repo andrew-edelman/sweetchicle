@@ -130,7 +130,7 @@ td {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 75%;
+      width: 90%;
     }
     .bio-image {
       display: block;
@@ -146,7 +146,7 @@ td {
       width: 90%;
     }
 
-    .bio-heading {
+    .bio-heading, .bio-description {
       margin-left: 5%;
     }
 }
