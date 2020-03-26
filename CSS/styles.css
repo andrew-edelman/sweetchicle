@@ -58,10 +58,10 @@ body {
   margin-top: 40px;
 }
 
-.content-description {
+/* .content-description {
   color: white;
   padding: 3% 2% 3%;
-}
+} */
 
 /* Contact Page */
 #contact {
@@ -129,7 +129,7 @@ td {
   padding-bottom: 4%;
 }
 
-@media (max-width: 900px) {
+@media screen (max-width: 900px) {
   .member-image {
     padding-bottom: 3%;
   }
