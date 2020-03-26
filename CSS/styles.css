@@ -127,9 +127,8 @@ td {
 @media only screen and (max-width: 900px) {
   .about-row .member-image {
     padding-bottom: 5%;
-    text-align: center;
-  }
-  .about-row .bio-image {
+    }
+  .about-row {
     text-align: center;
   }
 }
