@@ -126,17 +126,28 @@ td {
 
 @media only screen and (max-width: 900px) {
   .member-image {
-    padding-bottom: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+      padding-bottom: 5%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
     }
     .bio-image {
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 90%;
+    }
+
+    .band-description {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+    }
+
+    .bio-heading {
+      margin-left: 5%;
     }
 }
 
@@ -159,5 +170,9 @@ td {
 .bio-description {
   font-family: 'Rubik', sans-serif;
   color: white;
+}
 
+.band-description {
+  font-family: 'Rubik', sans-serif;
+  color: white;
 }
