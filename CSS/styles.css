@@ -265,7 +265,7 @@ td {
 @media only screen and (min-width: 901px) {
   .modal-content {
     width: 40%;
-    margin: 21% auto;
+    margin: 12% auto;
   }
   .modal-social {
     display: none;
