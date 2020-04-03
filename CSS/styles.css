@@ -275,6 +275,10 @@ td {
   font-size: 2rem;
 }
 
+.modal-social {
+  padding: 0 2% 0;
+}
+
 /* The Close Button */
 .close {
   color: white;
