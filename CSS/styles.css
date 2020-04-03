@@ -5,15 +5,24 @@ body {
 }
 
 /* Nav Bar */
-.navbar-brand {
-  font-family: 'La Belle Aurore', cursive;
-  font-weight: 600;
-}
 .nav-item {
   font-family: 'Anton', sans-serif;
   padding-left: 4%;
   padding-right: 4%;
 }
+
+.navigation {
+  position: absolute;
+  z-index: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #fe83cc;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fe83cc;
+}
+
 
 .social-icon {
   color: #bfbfbf;
@@ -23,50 +32,73 @@ body {
 }
 
 .social-icon:hover {
-  color: white;
+  color: #fe83cc;
 }
 
-
-/* Band name area */
-.title-text{
-  text-align: center;
+/* Padding to move content below navbar  */
+@media only screen and (min-width: 901px) {
+  #shows, #contact, #music-head {
+    padding-top: 4%;
+  }
+  #about {
+    padding-top: 5%;
+  }
 }
 
-.band-name {
-  padding-top: 70px;
-  font-family: 'La Belle Aurore', cursive;
-  font-weight: 700;
-  color: white;
-  font-size: 3.5rem;
+@media only screen and (max-width: 900px) {
+  #shows, #about, #contact, #music-head {
+    padding-top: 12%;
+  }
 }
 
-.musical-experience {
-  font-family: 'Rokkitt', serif;
-  font-weight: 500;
-  color: white;
-  font-size: 2rem;
+/* Background for desktop */
+@media only screen and (min-width: 901px) {
+  .home-content {
+    height: 65vh;
+    text-align: center;
+    background-image: url("../background.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 600px; /* Resize the background image to cover the entire container */
+    padding-top: 5%;
+    position: relative;
+    top: 100px;
+  }
+  .home_icon {
+    width: 150px;
+  }
 }
 
-/* Content Area */
-.content {
-  text-align: center;
-  font-family: 'Rubik', sans-serif;
+/* Background for mobile */
+@media only screen and (max-width: 900px) {
+  .home-page {
+    height: 100vh;
+    background-image: url("../mobile-background.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .navigation .nav-link{
+    text-align: center;
+  }
+  .nav-item{
+    background-color: black;
+    opacity: 85%;
+  }
+  .home_icon {
+    width: 100px;
+  }
 }
 
-.fas {
-  color: white;
-  margin-top: 40px;
-}
-
-.home-content {
-  margin-left: -15;
-  margin-right: -15;
+#shows {
+  margin-bottom: 5%;
 }
 
 /* Contact Page */
 #contact {
   padding-left: 4%;
   padding-right: 4%;
+  margin-bottom: 5%;
 }
 .contact-message {
   font-family: 'Rokkitt', serif;
@@ -84,7 +116,7 @@ body {
 }
 
 .contact-link:hover {
-  color: white;
+  color: #fe83cc;
 }
 
 td {
@@ -96,6 +128,7 @@ td {
   text-align: center;
   padding-left: 4%;
   padding-right: 4%;
+  margin-bottom: 10%;
 }
 .song {
   padding: 2%;
@@ -123,6 +156,7 @@ td {
 #about {
   padding-left: 4%;
   padding-right: 4%;
+  margin-bottom: 5%;
 }
 
 .about-row {
@@ -180,4 +214,84 @@ td {
 .band-description {
   font-family: 'Rubik', sans-serif;
   color: white;
+}
+
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/* Menu Pop Up Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Pop Up Modal Content/Box */
+.modal-content {
+  background-color: #000000;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .modal-content {
+    width: 80%;
+    margin-top: 60%;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .modal-content {
+    width: 40%;
+  }
+}
+
+.modal-link {
+  color: white;
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.modal-link:hover, .close:hover,
+.close:focus{
+  color: #fe83cc;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: 0px 0px #fe83cc;
+}
+
+.btn-dark:hover, .btn-dark:focus {
+  color: #fe83cc;
 }

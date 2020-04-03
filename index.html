@@ -23,11 +23,11 @@
   <title>Sweet Chicle</title>
 </head>
 
-<body>
+<body class="home-page">
 
-  <section class="navigation">
+  <section class="navigation container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="index.html">Sweet Chicle</a>
+      <a class="navbar-brand" href="index.html"><img class="home_icon" src="Home_icon.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -64,38 +64,36 @@
     </nav>
   </section>
 
-  <section class="title-text">
-    <h1 class="band-name">Sweet Chicle</h1>
-
-    <p class="musical-experience">a musical experience.</p>
+  <section class="home-content">
+    <!-- on the home page on a full browser this is filled with the home page logo image via CSS Styles -->
   </section>
+  <div class="footer">
 
-  <section class="content">
-    <div class="row" style="margin-left: 0; margin-right:0;">
-      <div class="col-lg-3 col-md-6 home-content">
-        <i class="fas fa-2x fa-calendar-alt"></i>
-        <p>Check out our upcoming shows</p>
-        <a href="shows.html"><button type="button" class="btn btn-sm btn-outline-light content-button">CALENDAR</button></a>
-      </div>
-      <div class="col-lg-3 col-md-6 home-content">
-        <i class="fas fa-2x fa-headphones"></i>
-        <p>Listen to some original music</p>
-        <a href="music.html"><button type="button" class="btn btn-sm btn-outline-light content-button">LISTEN</button></a>
-      </div>
-      <div class="col-lg-3 col-md-6 home-content">
-        <i class="fas fa-2x fa-envelope"></i>
-        <p>Get in touch with us</p>
-        <a href="contact.html"><button type="button" class="btn btn-sm btn-outline-light content-button">CONTACT</button></a>
-      </div>
-      <div class="col-lg-3 col-md-6 home-content">
-        <i class="fas fa-2x fa-users"></i>
-        <p>Check out our band history</p>
-        <a href="about.html"><button type="button" class="btn btn-sm btn-outline-light content-button">ABOUT US</button></a>
-      </div>
+      <button class="btn btn-dark btn-lg btn-block" id="myBtn">MENU</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p><a class="modal-link" href="index.html">home.</a></p>
+          <p><a class="modal-link" href="shows.html">shows.</a></p>
+          <p><a class="modal-link" href="music.html">music.</a></p>
+          <p><a class="modal-link" href="contact.html">contact.</a></p>
+          <p><a class="modal-link" href="about.html">about.</a></p>
+        </div>
+    <!-- Trigger/Open The Modal -->
+
+
     </div>
-  </section>
 
+  </div>
 
+  <!-- Javascript Link -->
+  <script src="index.js" type="text/javascript">
+
+  </script>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
