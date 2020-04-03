@@ -258,14 +258,16 @@ td {
 @media only screen and (max-width: 900px) {
   .modal-content {
     width: 80%;
-    margin: 23% auto;
+    margin: 21% auto;
   }
 }
 
 @media only screen and (min-width: 901px) {
   .modal-content {
     width: 40%;
-    margin: 23% auto;
+  }
+  .modal-social {
+    display: none;
   }
 }
 
